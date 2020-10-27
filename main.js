@@ -1,7 +1,19 @@
 const list = document.querySelector(".list");
 const hamburger = document.querySelector(".hamburger");
+const navbar = document.getElementById("navbar");
 
 let showMenu = false;
+
+window.addEventListener("scroll", () => {
+  const scrollHeight = window.window.pageYOffset;
+  const navbarHeight = navbar.getBoundingClientRect().height;
+
+  if (scrollHeight > navbarHeight) {
+    navbar.classList.add("fixed-nav");
+  } else {
+    navbar.classList.remove("fixed-nav");
+  }
+});
 
 hamburger.addEventListener("click", menuToggle);
 
