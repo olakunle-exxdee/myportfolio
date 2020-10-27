@@ -34,6 +34,7 @@ ul {
 a {
   text-decoration: none;
   color: #eeeeee;
+  font-family: "Quattrocento", serif;
 }
 
 img {
@@ -65,21 +66,52 @@ h4 {
   font-size: 0.875rem;
 }
 
-@media screen and (min-width: 800px) {
+a {
+  font-size: 0.875rem;
+}
+
+@media screen and (min-width: 600px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   h2 {
     font-size: 2.5rem;
   }
   h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   h4 {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   body {
-    font-size: 1rem;
+    font-size: 1.25rem;
+  }
+  a {
+    font-size: 1.25rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.25rem;
+  }
+  body {
+    font-size: 1.5rem;
   }
   h1,
   h2,
@@ -100,6 +132,7 @@ h4 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 0.5rem;
 }
 
 #navbar .list1 .logo {
@@ -112,7 +145,7 @@ h4 {
 
 #navbar .list1 .hamburger {
   cursor: pointer;
-  height: 10px;
+  height: 20px;
   width: 30px;
   z-index: 1100;
   -webkit-transition: all 0.3s linear;
@@ -170,7 +203,6 @@ h4 {
 }
 
 #navbar .list .link {
-  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -206,7 +238,11 @@ h4 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 60vh;
+  height: 80vh;
+}
+
+.hero__heading .greetings {
+  color: #2800cd;
 }
 
 .hero__heading .hero__text {
@@ -223,12 +259,36 @@ h4 {
   left: 0;
   bottom: 0;
   height: 15px;
-  width: 200px;
+  width: 45%;
+  max-width: 800px;
   z-index: -2;
 }
 
 .hero__heading .title {
   margin-bottom: 1rem;
+}
+
+.hero__heading .btn {
+  display: inline-block;
+  background: #2800cd;
+  border: 2px solid #2800cd;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+  color: #eee;
+  border-radius: 1px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.hero__heading .btn:hover {
+  background: #00050a;
+  color: #2800cd;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 @media only screen and (min-width: 50em) {
