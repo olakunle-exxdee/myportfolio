@@ -1,0 +1,25 @@
+// font
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Quattrocento:wght@400;700&display=swap");
+
+.container {
+  width: 100%;
+  max-width: 120em;
+  padding: 0 3em;
+  margin: 0 auto;
+}
+// section {
+//   padding: 8em 0;
+// }
+
+$headingfont: "Oswald", sans-serif;
+$bodyfont: "Quattrocento", serif;
+
+@mixin transit {
+  transition: all 0.3s linear;
+}
+
+@mixin responsive {
+  @media only screen and (min-width: 50em) {
+    @content;
+  }
+}
