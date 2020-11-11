@@ -1,0 +1,32 @@
+.contact {
+  .wrapper {
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    .about-me {
+      max-width: 400px;
+      line-height: 1.7;
+      color: #eee;
+      P {
+        font-weight: 100;
+      }
+      .me {
+        margin-bottom: 2rem;
+        font-family: "Oswald", sans-serif;
+        position: relative;
+        color: #eee;
+        .underline {
+          position: absolute;
+          background: #2800ad;
+          display: inline-block;
+          left: 0;
+          bottom: 0;
+          height: 10px;
+          width: 40%;
+          max-width: 150px;
+          z-index: -2;
+        }
+      }
+    }
+  }
+}

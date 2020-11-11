@@ -29,10 +29,13 @@
       img {
         max-width: 350px;
         opacity: 0.7;
+        transform: scale(1);
+        border-radius: 5px;
         cursor: pointer;
-        transition: opacity 200ms ease;
+        transition: all 200ms ease;
         &:hover {
           opacity: 1;
+          transform: scale(1.05);
         }
       }
 
