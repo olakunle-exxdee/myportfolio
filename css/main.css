@@ -417,6 +417,11 @@ a {
   color: #2800ad;
 }
 
+.contact {
+  padding: 1em 0 1em 0;
+  color: #eee;
+}
+
 .contact .wrapper .about-me {
   max-width: 400px;
   line-height: 1.7;
@@ -425,6 +430,23 @@ a {
 
 .contact .wrapper .about-me P {
   font-weight: 100;
+}
+
+.contact .wrapper .about-me p:nth-child(1) {
+  font-weight: 900;
+}
+
+.contact .wrapper .about-me ul {
+  margin-top: 1rem;
+}
+
+.contact .wrapper .about-me i,
+.contact .wrapper .about-me li {
+  font-weight: 100;
+}
+
+.contact .wrapper .about-me .fab {
+  color: #2800ad;
 }
 
 .contact .wrapper .about-me .me {
@@ -444,6 +466,38 @@ a {
   width: 40%;
   max-width: 150px;
   z-index: -2;
+}
+
+.footer {
+  padding: 1em 0 1em 0;
+  border-top: 1px #5b566b solid;
+  color: #eee;
+}
+
+.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer a + a {
+  margin-left: 1rem;
+}
+
+.footer .fab {
+  color: #eee;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+
+.footer .fab:hover {
+  color: #2800ad;
 }
 
 @media only screen and (min-width: 50em) {
@@ -494,6 +548,24 @@ a {
             align-items: center;
     -ms-flex-item-align: end;
         align-self: flex-end;
+  }
+  .contact .wrapper .about-me ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contact .wrapper .about-me li + li {
+    margin-left: 1rem;
+  }
+  .contact .wrapper .about-me i,
+  .contact .wrapper .about-me li {
+    font-weight: 100;
   }
 }
 /*# sourceMappingURL=main.css.map */

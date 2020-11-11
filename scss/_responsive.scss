@@ -30,4 +30,23 @@
       align-self: flex-end;
     }
   }
+  .contact {
+    .wrapper {
+      .about-me {
+        ul {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        li + li {
+          margin-left: 1rem;
+        }
+
+        i,
+        li {
+          font-weight: 100;
+        }
+      }
+    }
+  }
 }

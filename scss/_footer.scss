@@ -1,4 +1,6 @@
 .contact {
+  padding: 1em 0 1em 0;
+  color: #eee;
   .wrapper {
     // display: flex;
     // align-items: center;
@@ -10,6 +12,29 @@
       P {
         font-weight: 100;
       }
+      p:nth-child(1) {
+        font-weight: 900;
+      }
+
+      ul {
+        // display: flex;
+        // align-items: center;
+        // justify-content: space-between;
+        margin-top: 1rem;
+      }
+      //   li + li {
+      //     margin-left: 1rem;
+      //   }
+
+      i,
+      li {
+        font-weight: 100;
+      }
+
+      .fab {
+        color: #2800ad;
+      }
+
       .me {
         margin-bottom: 2rem;
         font-family: "Oswald", sans-serif;
@@ -27,6 +52,28 @@
           z-index: -2;
         }
       }
+    }
+  }
+}
+
+.footer {
+  padding: 1em 0 1em 0;
+  border-top: 1px #5b566b solid;
+  color: #eee;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a + a {
+    margin-left: 1rem;
+  }
+
+  .fab {
+    color: #eee;
+    transition: color 200ms ease;
+    &:hover {
+      color: #2800ad;
     }
   }
 }
