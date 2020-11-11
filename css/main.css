@@ -434,10 +434,7 @@ a {
 
 .contact .wrapper .about-me p:nth-child(1) {
   font-weight: 900;
-}
-
-.contact .wrapper .about-me ul {
-  margin-top: 1rem;
+  margin: 1rem 0;
 }
 
 .contact .wrapper .about-me i,
