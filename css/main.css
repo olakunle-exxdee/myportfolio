@@ -210,21 +210,6 @@ a {
   transition: all 0.3s linear;
 }
 
-.navbar .list .resume {
-  position: relative;
-  display: inline-block;
-  background: #2800ad;
-  color: #00050a;
-  padding: 0.5rem 1rem;
-  border-radius: 1px;
-}
-
-.navbar .list .resume:hover {
-  color: #eee;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
-}
-
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -263,20 +248,21 @@ a {
 
 .hero__heading .title {
   margin-bottom: 1rem;
+  font-family: "Quattrocento", serif;
 }
 
 .hero__heading .btn {
   display: inline-block;
   background: #2800ad;
   border: 1px solid #2800ad;
-  padding: 1rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   cursor: pointer;
   font-size: 1rem;
   text-transform: uppercase;
   font-family: "Quattrocento", serif;
   font-weight: 900;
   color: #eee;
-  border-radius: 2px;
+  border-radius: 5px;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
