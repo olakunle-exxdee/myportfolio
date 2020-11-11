@@ -7,8 +7,7 @@
     padding-top: 0.5rem;
     .logo {
       z-index: 1100;
-      font-family: "Oswald", sans-serif;
-      font-size: 1.5rem;
+      margin-top: 1rem;
       @include transit;
     }
     .hamburger {
@@ -63,19 +62,6 @@
         @include transit;
       }
     }
-    // .resume {
-    //   position: relative;
-    //   display: inline-block;
-    //   background: #2800ad;
-    //   color: #00050a;
-    //   padding: 0.5rem 1rem;
-    //   border-radius: 1px;
-
-    //   &:hover {
-    //     color: #eee;
-    //     @include transit;
-    //   }
-    // }
   }
 }
 

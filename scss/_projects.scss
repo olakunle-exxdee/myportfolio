@@ -1,0 +1,54 @@
+#projects {
+  padding-bottom: 8em;
+
+  h2 {
+    margin-bottom: 2rem;
+    font-family: "Oswald", sans-serif;
+    position: relative;
+    color: #eee;
+  }
+  .underline {
+    position: absolute;
+    background: #2800ad;
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+    height: 10px;
+    width: 11%;
+    max-width: 17%;
+    z-index: -2;
+  }
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .website {
+      margin-bottom: 2rem;
+      img {
+        max-width: 350px;
+        opacity: 0.7;
+        cursor: pointer;
+        transition: opacity 200ms ease;
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      .component {
+        display: flex;
+        justify-content: space-between;
+        max-width: 350px;
+        margin: 1rem 0;
+        a {
+          transition: color 200ms ease;
+          color: #fff;
+          &:hover {
+            color: #2800ad;
+          }
+        }
+      }
+    }
+  }
+}
